@@ -1,0 +1,28 @@
+{
+  "name": "b",
+  "version": "1.0.0",
+  "description": "Windows 本地 Walsh-Hadamard 变换与异或卷积后端",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "start": "node dist/api/start.js",
+    "dev:start": "tsx src/api/start.ts",
+    "cli": "tsx src/cli.ts",
+    "demo": "tsx src/cli.ts demo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}
